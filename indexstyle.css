@@ -1,0 +1,448 @@
+.logotxt {
+    color: #3E517A;
+    font-weight: bold;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+}
+.fourlogo {
+    width: 250px;
+    transition: transform 0.5s;
+}
+
+.blue-footer {
+    background-color: #3E517A;
+    color: #C0E8F9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 98.5%;
+    padding: 15px;
+}
+
+.heartlogo {
+    width: 100vw;
+
+}
+
+.tfgh p {
+    font-size: 45px;
+    color: #3E517A;
+    margin: 90;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: -100px;
+}
+
+.custom-section {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+
+.text-box {
+    width: 400px;
+    flex-shrink: 0
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    margin-left: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 100px;
+} */
+
+.left-image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.large-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.icon {
+    background-color: #C0E8F9; 
+    padding: 30px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.icon img {
+    width: 100px; 
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #3a527b;
+}
+
+.card-content p {
+    margin: 5px 0 10px 0;
+    font-size: 22px;
+}
+
+.card-content button {
+    background-color: #3a527b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-content button:hover {
+    background-color: #3a527b;
+}
+
+.info-box {
+    text-align: center;
+    font-size: 48px;
+    color: #404040;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.handcustom {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px; 
+}
+
+.hand-image {
+    position: relative;
+    display: inline-block;
+}
+
+.hand-image{
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
+
+.hand-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0)70%, white);
+    pointer-events: none; 
+}
+.righthand-section {
+    flex: 1;
+    text-align: right; 
+    padding-left: 20px; 
+}
+
+.impact-container {
+    background-color: #C0E8F9;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.impact-message {
+    border-left: 4px solid #3a4a6d;
+    padding-left: 20px;
+}
+.impact-message h2 {
+    color: #3a4a6d;
+    font-size: 50px;
+    margin: 0;
+    line-height: 1.2;
+}
+.left-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #e0f0ff;
+}
+
+.impact-box {
+    background-color: #C0E8F9;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a527b;
+    border-radius: 10px;
+}
+
+
+.logo-box {
+    background-color: #C0E8F9;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 10px;
+    color: #3a527b;
+}
+
+.right-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-content p {
+    margin: 10px 0;
+}
+
+.button-group {
+    margin: 20px 0;
+}
+
+.info-btn {
+    background-color: #3a527b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.info-btn:hover {
+    background-color: #3a527b;
+}
+
+.image-box {
+    margin-top: 20px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hand-image {
+    flex: 1; 
+    text-align: left; 
+}
+
+.hand-image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.dialoglogo {
+    float: left;
+}
+
+.handholdheart {
+    left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.impact-section {
+    flex: 1;
+    background-color: #C0E8F9;
+    padding: 100px;
+    text-align: left;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.impact-section p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.commitment-section {
+    flex: 2;
+    padding: 20px 40px;
+    margin-left: 50px; 
+    max-width: 900px; 
+}
+
+.commitment-section p {
+    font-size: 36px; 
+    margin-bottom: 15px; 
+    color:  #3a527b;
+    line-height: 1.6; 
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.buttons button {
+    background-color: #3a527b;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 300px; 
+    text-align: center; 
+}
+
+.contact-section {
+    flex: 1;
+    text-align: left;
+    margin-top: 300px
+}
+
+.contact-title {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #b3e6ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 75px;
+    height: 75px;
+}
+
+.logo-footer {
+    margin-top: 200px;
+    text-align: left;
+    
+}
+
+.footer-logo {
+    width: 300px;
+    height: auto;
+}
+
+.image-section {
+    flex: 1;
+    text-align: right;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+.plant-image-container {
+    position: relative;
+    float: right;
+    width: 60%;
+  }
+  
+  .plant-image {
+    width: 80%;
+    transform: translateY(-200px); 
+    transform: translateX(210px);
+    top: -100px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between; /* To place the items side by side */
+    align-items: flex-start; /* Aligns the top of the elements */
+}
+
+.plant-image-container, .contact-section {
+    flex: 1;
+}
