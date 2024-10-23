@@ -43,33 +43,35 @@ const smoothElement = document.querySelector('.smooth');
 const text1 = 'Technology for the good of humanity';
 const text2 = 'Serving those who serve humanity';
 
-let currentText = text1;
+let currentText = text2;
 
 function swapText() {
-  // Start fading out
+  // Start rolling out the current text
   smoothElement.classList.add('hidden');
+  smoothElement.classList.remove('visible');
 
-  // Wait for the fade-out to complete before swapping the text
+  // Wait for the roll-out to complete before swapping the text
   setTimeout(() => {
     // Swap the text
     currentText = currentText === text1 ? text2 : text1;
     smoothElement.innerHTML = currentText;
 
-    // Start fading back in
+    // Start rolling in the new text
     smoothElement.classList.remove('hidden');
+    smoothElement.classList.add('visible');
 
     // Set different delays based on the current text
     let delay = currentText === text1 ? 10000 : 4000; // Text 1 lasts for 10 seconds, Text 2 for 4 seconds
 
     // Call the swapText function again after the delay
     setTimeout(swapText, delay);
-  }, 1000); // Time for the fade-out transition to complete (matches CSS transition)
+  }, 1000); // Time for the roll-out transition to complete (matches CSS transition)
 }
 
 // Initial delay for Text 1 to start visible for 10 seconds
 setTimeout(swapText, 10000);
 
-document.getElementById('location-link').href = "https://www.google.com/maps?q=Bengaluru";
+document.getElementById('location-link').href = "https://maps.app.goo.gl/hPSEGwhzh4MDcMzw8";
 document.getElementById('phone').href = "tel:+91 80880 33924";
 document.getElementById('email').href = "https://mail.google.com/mail/?view=cm&fs=1&to=connect@4gd.ai&su=Subject&body=Body%20Text";
-document.getElementById('social').href = "https://linktr.ee/4good.ai";
+document.getElementById('social').href = "https://www.linkedin.com/company/4good-ai";
