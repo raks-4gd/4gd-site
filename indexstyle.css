@@ -1,0 +1,571 @@
+.logotxt {
+    color: #3E517A;
+    font-weight: bold;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+.fourlogo {
+    width: 550px;
+    transition: transform 0.5s;
+}
+
+.hero {
+    background-color: #e0eaf4;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+.blue-footer {
+    background-color: #3E517A;
+    color: #C0E8F9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 98.5%;
+    padding: 15px;
+}
+
+.heartlogo {
+    width: 99.89vw;
+    
+}
+
+.tfgh p {
+    font-size: 45px;
+    color: #3a527b;
+    margin: 90;
+    text-align: center;
+    padding: 20px 20px;
+   margin-top: -100px; 
+}
+
+.smooth {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.text-box {
+    width: 400px;
+    flex-shrink: 0
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    margin-left: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    flex: 1;
+    margin-left: -50px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.large-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.icon {
+    background-color: #C0E8F9; 
+    padding: 30px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.icon img {
+    width: 100px; 
+    height: auto;
+    display: block;
+}
+.def-icon{
+    background-color: #C0E8F9; 
+    padding: 30px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-right: 30px;
+
+}
+.def-icon img{
+width: 100px;
+height: auto;
+display: block;
+}
+.card-content {
+    flex-grow: 1;
+}
+
+
+.card-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #3a527b;
+}
+
+.card-content p {
+    margin: 5px 0 10px 0;
+    font-size: 22px;
+}
+
+
+.info-box {
+    text-align: center;
+    font-size: 48px;
+    color: #3a527b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: -134px;
+}
+.committment {
+   
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.plant-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    height: 100%; 
+  }
+
+.plant-image {
+    max-width: 400px; 
+    width: 100%;
+    height: auto;
+}
+
+.about-box {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 44px;
+    color: #3a527b;
+    padding: 0;
+    margin-top: -500px;
+    margin-left: 700px;
+}
+.about-box-mobile{
+    display: none;
+}
+
+.hand-image {
+    position: relative;
+    display: inline-block;
+}
+
+.hand-image{
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
+
+.handcustom {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+/* .handcustom::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0)70%, white);
+    pointer-events: none; 
+    z-index: 2;
+} */
+.righthand-section {
+    flex: 1;
+    padding-left: 40px; 
+}
+
+.impact-container {
+    background-color: #C0E8F9;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.impact-message h2 {
+    color: #3a4a6d;
+    font-size: 50px;
+    margin-left: 10px;
+    line-height: 1.2;
+}
+.left-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #C0E8F9;
+}
+
+.impact-box {
+    background-color: #C0E8F9;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a527b;
+    border-radius: 10px;
+}
+
+
+.logo-box {
+    background-color: #C0E8F9;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 10px;
+    color: #3a527b;
+}
+
+.right-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-content p {
+    margin: 10px 0;
+}
+
+.image-box {
+    margin-top: 20px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #3a527b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hand-image {
+    flex: 1; 
+    text-align: left; 
+    margin-top: 2px;
+}
+
+.hand-image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.dialoglogo {
+    float: left;
+}
+
+.handholdheart {
+    left: 0;
+}
+
+.custom-section {
+    display: flex;
+    justify-content: flex-start;
+   max-height: 418px;
+    background-color: #fff;
+}
+
+.us-together{
+    flex: 1;
+    background-color: #3a527b;
+    color:#fff;
+    padding: 100px;
+    box-sizing: border-box;
+    width: 105%;
+   
+}
+.us-together h2{
+    margin-left: -50px;
+    font-size: 42px;
+    text-align: left;
+}
+.us-together-mob h2{
+    display: none;
+}
+
+.impact-section {
+    flex: 1;
+    background-color: #C0E8F9;
+    padding: 100px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.impact-section p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.commitment-section {
+    flex: 1;
+    padding: 20px 40px;
+    margin-left: 50px; 
+    max-width: 900px; 
+    text-align: center;
+}
+
+.commitment-section p {
+    font-size: 36px; 
+    margin-bottom: 15px; 
+    color:  #3a527b;
+    line-height: 1.6; 
+}
+.leaves-for-mob{
+    display: none;
+}
+
+
+/* Tablet Version for indexstyle.css */
+@media screen and (max-width: 768px) {
+    /* Hero Section */
+    .hero {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    /* Heart Logo */
+    .heartlogo {
+        width: 100%;
+        margin-bottom: 35px;
+        margin-top: 25px;
+    }
+
+    /* 'Technology for good of humanity' Text */
+    .tfgh p {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Hand Image Section */
+    .hand-image {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Info Box Below Hand Image */
+    .righthand-section {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .info-box {
+        font-size: 36px;
+    }
+}
+
+/* Mobile Version for indexstyle.css */
+@media screen and (max-width: 480px) {
+    /* Hero Section */
+    .hero {
+        width: 100%;
+        height: 410px;
+        padding: 10px 0;
+    }
+    .fourlogo{
+        width: 350px;
+    }
+
+    .heartlogo {
+        width: 100%;
+        margin-bottom: 35px;
+        margin-top: 25px;
+    }
+    .us-together {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        width: 414px;
+        height: 70px;
+    }
+    .us-together h2 {
+        display: none;
+    }
+    .us-together-mob h2{
+        display: block;
+        color:#fff;
+        margin-left: 34px;
+        font-size: 20px;
+        text-align: left;
+        margin-top: -50px;
+    }
+    .service-cards {
+        gap: 0px;
+        margin-top: 60px;
+        margin-left: -420px;
+        margin-bottom: 3px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .icon, .def-icon {
+        padding: 15px; /* Reduce icon size padding for mobile */
+        margin-right: 8px;
+    }
+
+    .icon img, .def-icon img {
+        width: 50px; /* Reduce image size for mobile */
+    }
+
+    .card-content p {
+        font-size: 12px; /* Reduce font size for mobile */
+    }
+
+    /* 'Technology for good of humanity' Text */
+    .tfgh p {
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -62px;
+    }
+
+    /* Hand Image Section */
+    .handcustom::before {
+        display: none;
+    }
+    .handcustom {
+        flex-direction: column; /* Stack the image and text vertically */
+    }
+
+    .hand-image {
+        text-align: center; /* Center the image on mobile */
+        margin-bottom: 20px; /* Add space below the image */
+    }
+
+    .righthand-section {
+        padding-left: 0; /* Remove padding on mobile */
+        text-align: center; /* Center the text */
+    }
+
+    .info-box {
+        font-size: 24px; /* Reduce font size for mobile */
+        padding: 10px; /* Adjust padding for mobile */
+        margin-left: 8px;
+        margin-top: -40px;
+    }
+    .committment {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        padding: 40px 20px; /* Ensure enough padding for section */
+        /* min-height: 350px; Keep section size stable */
+    }
+
+    .plant-image-container {
+        display: none; 
+    }
+    .leaves-for-mob{
+        display: block;
+    }
+    .plant-image-mob{
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    margin-top: -24px;
+    }
+
+    .about-box {
+        font-size: 28px; 
+        margin-left: -38px;
+        margin-top: -10px;
+        display: none;
+    }
+    .about-box-mobile{
+        display: block;
+        font-size: 24px; 
+        margin-right: 33px;
+        margin-top: -10px;
+        flex: 1; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
+        color: #3a527b;
+        padding: 0;
+        margin-top: -70px;
+    }
+}
+.contact-section {
+    flex: 1;
+    text-align: left;
+    margin-top: 170px;
+}

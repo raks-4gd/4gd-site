@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 30px;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between; /* Separates the logo and nav-menu */
+    align-items: center; /* Vertically center items */
+}
+
+header .logo {
+    width: 40px;
+    margin-top: -10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    position: relative;
+   
+}
+
+.nav-link {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #3a527b;
+    font-size: 20px; 
+}
+.nav-link.active {
+    color: #3a527b; 
+}
+.slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background-color: #3a527b; 
+    transition: left 0.3s ease;
+}
+.container {
+    display: flex;
+    max-height: 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.contact-section {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-title {
+    color: #3a527b;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    max-width: 41%;
+    background-color: #C0E8F9;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-left: -28px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 24px;
+    color: #3a527b;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+   
+}
+
+.bottom-logo-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.bottom-logo {
+    width: 400px;
+    height: auto;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #3a527b;
+}
+
+.location-text {
+    position: relative;
+    top: -20px; 
+}
+.phone-text {
+    position: relative;
+    top: -20px;
+}
+.email-text{
+    position: relative;
+    top: -20px;
+}
+.socials-text{
+    position: relative;
+    top: -20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 30px;
+        max-width: 480px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute !important;
+        margin-top: -40px !important;
+    }
+
+    .contact-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contact-icon {
+        width: 20px;
+    }
+
+    .bottom-logo-section {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .bottom-logo {
+        width: 150px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-left: 30px;
+    
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute !important;
+        margin-top: -40px !important;
+        
+    }
+
+    .contact-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .contact-title {
+        color: #3a527b;
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 50px;
+        max-width: 100%;
+        background-color: #C0E8F9;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin-left: -28px;
+    }
+
+    .contact-icon {
+        width: 25px;
+    }
+
+    .bottom-logo-section {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .bottom-logo {
+       display: none;
+    }
+    .contact-details {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    
+      .contact-item {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr); /* Two items per row */
+      }
+    
+      .contact-icon {
+        width: 40px; /* Adjust icon size */
+        height: 40px;
+      }
+    
+      .contact-title {
+        font-size: 22px; 
+        max-width: 120%;
+        width: 110%;
+        text-align: center;
+        margin-right: 33px;
+      }
+    
+      .bottom-logo {
+       display: none;
+      }
+    
+      /* Ensure the contact text wraps properly */
+      .contact-text,
+      .location-text,
+      .phone-text,
+      .email-text,
+      .socials-logo {
+        white-space: nowrap;
+        text-align: left; /* Ensure text is aligned correctly */
+      }
+    
+      /* Ensure the QR code doesn't get too small */
+      .socials-logo img {
+        width: 50px;
+        height: 50px;
+      }
+}
+
+
+
+
