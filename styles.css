@@ -29,8 +29,9 @@ header nav {
 }
 
 header .logo {
-    width: 40px;
-    margin-top: -10px;
+    width: 55px;
+    padding-left: 3%;
+    margin-top: -23px;
 }
 
 .nav-menu {
@@ -48,7 +49,7 @@ header .logo {
 
 .nav-link {
     display: block;
-    padding: 15px 20px;
+    padding: 15px 35px;
     text-decoration: none;
     color: #3a527b;
     font-size: 20px; 
@@ -148,7 +149,6 @@ header .logo {
     top: -20px;
 }
 
-
 @media screen and (max-width: 480px) {
     .container {
         display: flex;
@@ -205,6 +205,49 @@ header .logo {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        height: auto; 
+    }
+
+    header nav {
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center;
+        width: 100%; 
+    }
+
+    header .logo {
+        width: 35px; 
+        margin-left: 10px; 
+        margin-top: 5px;
+    }
+
+    .nav-menu {
+        display: flex; 
+        justify-content: flex-start; 
+        margin-left: 70px;
+        gap: 10px; 
+        margin-bottom: -6px;
+
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 10px 15px; 
+        font-size: 18px; 
+        text-align: center;
+    }
+
+    .slider {
+        width: 80px;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+    }
     .container {
         display: flex;
         justify-content: space-between;
@@ -269,18 +312,20 @@ header .logo {
       .contact-item {
         display: grid;
         align-items: center;
-        grid-template-columns: repeat(2, 1fr); /* Two items per row */
+        grid-template-columns: repeat(2, 1fr); 
+        margin-left: -11px;
+        gap: 22px;
       }
     
       .contact-icon {
-        width: 40px; /* Adjust icon size */
+        width: 40px;
         height: 40px;
       }
     
       .contact-title {
         font-size: 22px; 
-        max-width: 120%;
-        width: 110%;
+        max-width: 100%;
+        width: 92%;
         text-align: center;
         margin-right: 33px;
       }
@@ -289,23 +334,18 @@ header .logo {
        display: none;
       }
     
-      /* Ensure the contact text wraps properly */
+      
       .contact-text,
       .location-text,
       .phone-text,
       .email-text,
       .socials-logo {
         white-space: nowrap;
-        text-align: left; /* Ensure text is aligned correctly */
+        text-align: left;
       }
     
-      /* Ensure the QR code doesn't get too small */
       .socials-logo img {
         width: 50px;
         height: 50px;
       }
 }
-
-
-
-
