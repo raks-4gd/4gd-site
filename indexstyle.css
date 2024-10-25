@@ -137,6 +137,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-bottom: 40px;
+    margin-left: 15%;
 }
 
 .card {
