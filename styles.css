@@ -28,9 +28,14 @@ header nav {
     align-items: center; /* Vertically center items */
 }
 
+@media (min-width: 992px) { /* Desktop screens and up */
+    header .logo {
+        padding-left: 6vw;
+    }
+}
+
 header .logo {
     width: 55px;
-    padding-left: 3%;
     margin-top: -23px;
 }
 
