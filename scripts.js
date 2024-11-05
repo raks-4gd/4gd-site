@@ -2,10 +2,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Website Loaded');
 });
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Website Loaded');
 
-document.addEventListener('DOMContentLoaded', function () {
     const links = document.querySelectorAll('.nav-link');
     const slider = document.querySelector('.slider');
+    
     function moveToActiveLink() {
         const activeLink = document.querySelector('.nav-link.active');
         if (activeLink) {
@@ -14,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             slider.style.left = `${navItem.offsetLeft}px`;
         }
     }
+    
     function setActiveLinkBasedOnURL() {
         const currentURL = window.location.pathname; 
         links.forEach(link => {
@@ -24,21 +27,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 link.classList.remove('active'); 
             }
         });
-        moveToActiveLink(); 
+        moveToActiveLink();  // Call this here to position slider on page load
     }
-    setActiveLinkBasedOnURL();
+    
+    setActiveLinkBasedOnURL();  // Initial positioning of slider based on URL
 
     links.forEach(link => {
         link.addEventListener('click', (e) => {
             links.forEach(link => link.classList.remove('active'));
             e.target.classList.add('active');
-            moveToActiveLink();
+            moveToActiveLink();  // Move slider when a link is clicked
             setTimeout(() => {
                 window.location.href = e.target.href;
-            }, 500);
+            }, 1500);
         });
     });
 });
+
 const smoothElement = document.querySelector('.smooth');
 const text1 = 'Technology for the good of humanity';
 const text2 = 'Serving those who serve humanity';
