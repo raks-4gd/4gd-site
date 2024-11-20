@@ -30,7 +30,7 @@ header nav {
 
 @media (min-width: 992px) { /* Desktop screens and up */
     header .logo {
-        padding-left: 6vw;
+        /* padding-left: 6vw; */
     }
 }
 
