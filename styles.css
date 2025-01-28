@@ -28,11 +28,6 @@ header nav {
     align-items: center; /* Vertically center items */
 }
 
-@media (min-width: 992px) { /* Desktop screens and up */
-    header .logo {
-        /* padding-left: 6vw; */
-    }
-}
 
 header .logo {
     width: 55px;
@@ -93,7 +88,7 @@ header .logo {
     background-color: #C0E8F9;
     padding: 10px 20px;
     border-radius: 8px;
-    margin-left: -28px;
+    margin-left: -32px;
 }
 
 .contact-details {
@@ -153,6 +148,33 @@ header .logo {
     position: relative;
     top: -20px;
 }
+#privacy {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.vertical-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+    margin-left: -27px;
+}
+
+.vertical-links a {
+    font-size: 14px; /* Adjust font size */
+    color: #3a527b; /* Match the color */
+    text-decoration: none;
+    padding: 2px 0;
+}
+
+.vertical-links a:hover {
+    text-decoration: underline; /* Add hover effect */
+}
+/* refund policy */
+
 
 @media screen and (max-width: 480px) {
     body{

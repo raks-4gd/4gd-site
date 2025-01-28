@@ -1,0 +1,78 @@
+h1 {
+    color: #3a527b;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* Main Points Styling (h2) */
+h2 {
+    color: #3a527b;
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding-left: 20px; /* Adjusted for consistency */
+    padding-right: 20px; /* Added for alignment with content */
+}
+
+/* Sub Points (h3) */
+h3 {
+    color: #3a527b;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 40px; /* Indented under main points */
+    padding-right: 20px; /* Standard padding */
+}
+
+/* Paragraphs */
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-left: 60px; /* Aligns with sub-points */
+    padding-right: 20px; /* Standard padding */
+}
+
+/* Unordered List */
+ul {
+    list-style: disc inside;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-left: 80px; /* Further indented for sub-points under lists */
+    padding-right: 90px; /* Standard padding */
+}
+
+/* List Items */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Note Box */
+.note {
+    color: #3a527b;
+    padding: 15px 20px; /* Standardized padding for all sides */
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 20px; /* Aligns with the overall structure */
+    margin-right: 20px;
+}
+
+/* Links */
+a {
+    color: #3a527b;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1d3557;
+    text-decoration: none;
+}
+header .logo{
+    width: 55px;
+    margin-top: -37px;
+}
