@@ -109,8 +109,8 @@ header .logo {
 }
 
 .contact-icon {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
    
 }
 
@@ -119,11 +119,11 @@ header .logo {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: -150px;
+    margin-top: -130px;
 }
 
 .bottom-logo {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
@@ -134,19 +134,23 @@ header .logo {
 
 .location-text {
     position: relative;
-    top: -20px; 
+    top: -14px; 
+    font-size: 18px;
 }
 .phone-text {
     position: relative;
-    top: -20px;
+    top: -14px;
+    font-size: 18px;
 }
 .email-text{
     position: relative;
-    top: -20px;
+    top: -14px;
+    font-size: 18px;
 }
 .socials-text{
     position: relative;
-    top: -20px;
+    top: -14px;
+    font-size: 14px;
 }
 #privacy {
     display: inline-flex;
@@ -164,7 +168,7 @@ header .logo {
 }
 
 .vertical-links a {
-    font-size: 14px; /* Adjust font size */
+    font-size: 12px; /* Adjust font size */
     color: #3a527b; /* Match the color */
     text-decoration: none;
     padding: 2px 0;
@@ -233,6 +237,8 @@ header .logo {
         display: block;
     }
 }
+
+
 
 @media screen and (max-width: 768px) {
     body{
